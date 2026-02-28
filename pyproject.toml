@@ -1,0 +1,31 @@
+[project]
+name = "mentorahackathon"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Garrett Woodhouse", email = "garrettwoodhouse@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0.0"
+
+dependencies = [
+    "langchain",
+    "langchain-text-splitters",
+    "langchain-community",
+    "langchain-groq",
+    "langchain-huggingface",
+    "supabase",
+    "python-dotenv",
+    "pypdf",
+    "sentence-transformers",
+    "langchain-core (>=1.2.16,<2.0.0)",
+    "assemblyai",
+    "pyaudio"
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
